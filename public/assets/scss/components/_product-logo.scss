@@ -1,0 +1,27 @@
+.section_title {
+  text-align: center;
+}
+
+.banner-img {
+  margin: 0px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 20px;
+}
+
+img {
+  border-radius: 20px;
+}
+
+.product-description {
+  font-size: 18px;
+  text-align: center;
+  margin: 30px;
+  line-height: 1.5;
+}
+
+.service-img {
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}

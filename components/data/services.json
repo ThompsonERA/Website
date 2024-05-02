@@ -1,0 +1,217 @@
+{
+    "services": [
+        {
+            "id": 1,
+            "service": "Basic Cleaning Service",
+            "price":"$80",
+            "ImageURL": "/assets/img/course/10.jpeg",
+            "other":"Basic Services Include",
+            "details": {
+                "Kitchen": {
+                    "tasks": [
+                        "Wash dishes/Load & Unload dishwasher",
+                        "Dry and Put Away Dishes",
+                        "Wipe down all surfaces including cabinets, countertops, appliances",
+                        "Sweep and mop"
+                    ]
+                },
+                "Dining Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Clean the table and chairs",
+                        "Clean any other furniture located in this area"
+                    ]
+                },
+                "Living Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Vacuum carpet and couches",
+                        "Dust all furniture including electronics and lamps",
+                        "Dust entryway",
+                        "Sweep/vacuum and mop",
+                        "Collect all refuse and dispose of it",
+                        "Empty receptacle if needed and replace liner"
+                    ]
+                }
+            },
+            "conditionBasedPricing": "We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100.",
+            "category": "service"
+        },
+        {
+            "id": 2,
+            "service": "Single Service",
+            "price":"$120",
+            "ImageURL": "/assets/img/course/5.jpeg",
+            "includedServices": "Basic Cleaning Service plus 2 additional rooms",
+            "other":"Basic Services Include",
+            "details": {
+                "Kitchen": {
+                    "tasks": [
+                        "Wash dishes/Load & Unload dishwasher",
+                        "Dry and Put Away Dishes",
+                        "Wipe down all surfaces including cabinets, countertops, appliances",
+                        "Sweep and mop"
+                    ]
+                },
+                "Dining Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Clean the table and chairs",
+                        "Clean any other furniture located in this area"
+                    ]
+                },
+                "Living Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Vacuum carpet and couches",
+                        "Dust all furniture including electronics and lamps",
+                        "Dust entryway",
+                        "Sweep/vacuum and mop",
+                        "Collect all refuse and dispose of it",
+                        "Empty receptacle if needed and replace liner"
+                    ]
+                }
+            },
+            "conditionBasedPricing": "We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100.",
+            "category": "service"
+        },
+        {
+            "id": 3,
+            "service": "Double Service",
+            "price":"$160",
+            "ImageURL": "/assets/img/course/11.jpeg",
+            "includedServices": "Basic Cleaning Service plus 4 additional rooms",
+            "other":"Basic Services Include",
+            "details": {
+                "Kitchen": {
+                    "tasks": [
+                        "Wash dishes/Load & Unload dishwasher",
+                        "Dry and Put Away Dishes",
+                        "Wipe down all surfaces including cabinets, countertops, appliances",
+                        "Sweep and mop"
+                    ]
+                },
+                "Dining Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Clean the table and chairs",
+                        "Clean any other furniture located in this area"
+                    ]
+                },
+                "Living Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Vacuum carpet and couches",
+                        "Dust all furniture including electronics and lamps",
+                        "Dust entryway",
+                        "Sweep/vacuum and mop",
+                        "Collect all refuse and dispose of it",
+                        "Empty receptacle if needed and replace liner"
+                    ]
+                }
+            },
+            "conditionBasedPricing": "We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100.",
+            "category": "service"
+        },
+        {
+            "id": 4,
+            "service": "Triple Service",
+            "price":"$200",
+            "ImageURL": "/assets/img/course/4.jpeg",
+            "includedServices": "Basic Cleaning Service plus 6 additional rooms",
+            "other":"Basic Services Include",
+            "details": {
+                "Kitchen": {
+                    "tasks": [
+                        "Wash dishes/Load & Unload dishwasher",
+                        "Dry and Put Away Dishes",
+                        "Wipe down all surfaces including cabinets, countertops, appliances",
+                        "Sweep and mop"
+                    ]
+                },
+                "Dining Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Clean the table and chairs",
+                        "Clean any other furniture located in this area"
+                    ]
+                },
+                "Living Area": {
+                    "quantity": 1,
+                    "tasks": [
+                        "Vacuum carpet and couches",
+                        "Dust all furniture including electronics and lamps",
+                        "Dust entryway",
+                        "Sweep/vacuum and mop",
+                        "Collect all refuse and dispose of it",
+                        "Empty receptacle if needed and replace liner"
+                    ]
+                }
+            },
+            "conditionBasedPricing": "We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100.",
+            "category": "service"
+        },
+        {
+            "id": 6,
+            "service": "alaCarteTasks",
+            "ImageURL": "/assets/img/course/6.jpeg",
+            "other":"",
+            "details": {
+                "$20 Per Room Include": {
+                    "tasks": [
+                        "Additional Room",
+                        "Baseboards",
+                        "Sweep/Vacuum Only",
+                        "Blinds",
+                        "Dusting Only ",
+                        "Windows ",
+                        "Changing Linens ",
+                        "Mopping All Floors"
+                    ]
+                },
+                "$20 Hourly Include": {
+                    "tasks": [
+                        "Cleaning Oven",
+                        "Organization/Labor ",
+                        "Detail cleaning ",
+                        "Cleaning Out Refrigerator "
+                    ]
+                }, 
+                "Others Include":{
+                    "tasks":[
+                        "$20 per Load Laundry (Limit 2 loads)",
+                        "$30 Steam Clean Carpets "
+                    ]
+                }
+            },
+                "conditionBasedPricing": {
+                    "description": "We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100."
+                },
+                "category": "service"
+            },
+            {
+                "id": 7,
+                "service": "Move In/Out",
+                "ImageURL": "/assets/img/course/7.jpeg",
+                "price":"$025 per sqr feet",
+                "category": "moveIn",
+                "description": " We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100."
+            },
+            {
+                "id": 8,
+                "service": "Mom’s Day Out",
+                "price":"$40",
+                "ImageURL": "/assets/img/course/13.jpeg",
+                "description": "4 Hours of In-Home Childcare for 1 child, $5 Each additional child, $10 Every 10 minutes over. We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100.",
+                "category": "childCare"
+            },
+            {
+                "id": 9,
+                "service": "Date Night",
+                "price":"$45",
+                "ImageURL": "/assets/img/course/14.jpeg",
+                "description": "4 Hours of In-Home Childcare for 1 child, additional child $6.75, $13.75 Every 10 minutes over. We reserve the right to increase pricing considering the condition of the Room or Appliance ranging $25 - $100.",
+                "category": "childCare"
+            }
+        ]
+    }

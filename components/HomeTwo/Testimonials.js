@@ -43,7 +43,7 @@ const Testimonials = () => {
       },
    ]
 
-   const RenderReviewText = (review) => {
+   const renderReviewText = (review) => {
       const words = review.split(' ');
       const [isExpanded, setIsExpanded] = useState(false);
       if (words.length <= 8 || isExpanded) {
@@ -134,7 +134,7 @@ const Testimonials = () => {
                                        </div>
                                        <div className="testimonial__text">
                                           <p>
-                                             {RenderReviewText(testimonial.review)}
+                                             {renderReviewText(testimonial.review)}
                                           </p>
                                           {/* <p>
                                              I recently experienced outstanding service from Ruth & Naomi. From my initial inquiry to the completion of the cleaning service, their professionalism, attention to detail, and dedication to customer satisfaction were remarkable.

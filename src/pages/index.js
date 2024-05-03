@@ -19,7 +19,7 @@ export default function Home() {
 
       <AboutArea />
       <ProductLogos />
-      {/* <Testimonials /> */}
+      <Testimonials />
       {/* <CounterArea/>
       <HomeCourses/>
       <Campus/>

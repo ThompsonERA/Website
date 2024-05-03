@@ -26,7 +26,13 @@ export default function Home() {
       
 
       <AboutArea/>
-
+      {/* <Testimonials /> */}
+      {/* <CounterArea/>
+      <HomeCourses/>
+      <Campus/>
+      
+      <HomeBlog/>
+      <Cta/> */}
       <Footer/>
     </>
   )

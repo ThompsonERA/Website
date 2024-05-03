@@ -5,6 +5,12 @@ const links = [
     name: "Home",
   },
 
+  // {
+  //   id: 2,
+  //   url: "/team",
+  //   name: "Team",
+  // },
+
   {
     id: 3,
     url: "/courses-style-two",
